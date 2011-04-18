@@ -21,10 +21,8 @@
            ::    ::   :::   ::   ::   ::   ::: ::::
            :      :   : :  :    ::    :    :: :: :
 
-# Swamp Thing
-
-Swamp Thing is a basic http server that takes in JavaScript and CSS and spits
-out minified equivalents to the input.
+Swamp Thing provides a basic http server that takes in JavaScript and CSS and
+spits out minified equivalents.
 
 ## API
 
@@ -38,5 +36,6 @@ should be either 'js' or 'css.'
 Things I'm planning to add:
 
  - Return minified content based on a provided file path.
+ - Bundle with a Connect middleware.
+ - Publish on NPM.
  - ???
-
