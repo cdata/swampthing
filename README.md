@@ -21,7 +21,6 @@
            ::    ::   :::   ::   ::   ::   ::: ::::
            :      :   : :  :    ::    :    :: :: :
 
-
 # Swamp Thing
 
 Swamp Thing is a basic http server that takes in JavaScript and CSS and spits
