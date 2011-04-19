@@ -1,0 +1,16 @@
+#! /usr/bin/env node
+
+var util = require('util'),
+    connect = require('connect'),
+    optimist = require('optimist'),
+    options = optimist.argv,
+    swampthing = require('swampthing');
+
+optimist.default(
+    {
+        p : 8642,
+        v : false
+    }
+);
+
+connect(swampthing.middleware(options.v)).listen(options.p);
