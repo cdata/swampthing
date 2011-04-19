@@ -13,4 +13,8 @@ optimist.default(
     }
 );
 
-connect(swampthing.middleware(options.v)).listen(options.p);
+connect(
+    swampthing.logo(),
+    swampthing.imageOptimizer(options.v),
+    swampthing.minifier(options.v)
+).listen(options.p);
